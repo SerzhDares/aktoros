@@ -173,7 +173,7 @@ ul, h1 {
     font-size: 24px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0 40px;
 }
 
@@ -599,6 +599,10 @@ ul, h1 {
         padding-left: 20px;
         padding-top: 12px;
         justify-content: flex-start;
+    }
+
+    .header_title_flex {
+        width: 90%;
     }
 
     .tractor {
